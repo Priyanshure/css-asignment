@@ -1,4 +1,4 @@
-<!-- 3. Create a web page with 5 a tag similar to a navigation bar. Each link should change to a different color when it is hovered over. -->
+<!-- 3. Create a navigation bar similar to question 1. For each navigation item use a different border style. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,34 +6,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hover Effect</title>
+    <title>Navigation Bar</title>
+
     <style>
-      .nav-link-1:hover {
-        color: red;
+      nav {
+        background-color: cornflowerblue;
+        padding: 20px;
       }
 
-      .nav-link-2:hover {
-        color: green;
+      a {
+        color: #fff;
+        margin-right: 20px;
+        margin-left: 20px;
       }
 
-      .nav-link-3:hover {
-        color: brown;
+      a:hover {
+        color: #000;
       }
 
-      .nav-link-4:hover {
-        color: black;
+      .nav-link-1 {
+        border: 3px solid black;
+        padding: 5px;
       }
 
-      .nav-link-5:hover {
-        color: darkcyan;
+      .nav-link-2 {
+        border: 3px dotted black;
+        padding: 5px;
+      }
+
+      .nav-link-3 {
+        border: 3px dashed black;
+        padding: 5px;
+      }
+
+      .nav-link-4 {
+        border: 3px double black;
+        padding: 5px;
+      }
+
+      .nav-link-5 {
+        border: 3px groove black;
+        padding: 5px;
       }
     </style>
   </head>
   <body>
-    <a href="#home" class="nav-link-1">Home |</a>
-    <a href="#about" class="nav-link-2">About |</a>
-    <a href="#contact" class="nav-link-3">Contact |</a>
-    <a href="#blog" class="nav-link-4">Blog |</a>
-    <a href="#login" class="nav-link-5">Login |</a>
+    <nav>
+      <a href="#" class="nav-link-1">Home</a
+      ><a href="#" class="nav-link-2">About Us</a
+      ><a href="#" class="nav-link-3">Contact</a
+      ><a href="#" class="nav-link-4">Blog</a
+      ><a href="#" class="nav-link-5">Login</a>
+    </nav>
   </body>
 </html>
